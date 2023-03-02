@@ -20,7 +20,7 @@ Please feel free to clone/fork projects, raise issues and submit PRs if you thin
   <img src ="https://github-readme-streak-stats.herokuapp.com/?user=shafayetShafee&theme=graywhite&hide_border=true">
   <br>
   <br>
-:information_source: <i>Top Languages does not indicate my skill level or anything like that; it's a GitHub metric to determine which languages have the most code on GitHub</i>
+:information_source: <i>Most used Languages does not indicate my skill level or anything like that; it's a GitHub metric to determine which languages have the most code on GitHub</i>
 </div>
 
 <div align="center">
