@@ -23,6 +23,18 @@ Please feel free to clone/fork projects, raise issues and submit PRs if you thin
 :information_source: <i>Most used Languages does not indicate my skill level or anything like that; it's a GitHub metric to determine which languages have the most code on GitHub</i>
 </div>
 
+<br>
+
+<div  align='center'>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shafayetShafee/shafayetShafee/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shafayetShafee/shafayetShafee/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/shafayetShafee/shafayetShafee/output/github-contribution-grid-snake.svg" />
+</picture>
+</div>
+
+<br>
+
 <div align="center">
   <br>
   <br>
