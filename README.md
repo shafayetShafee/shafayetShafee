@@ -24,8 +24,9 @@ Please feel free to clone/fork projects, raise issues and submit PRs if you thin
 </div>
 
 <div align="center">
-  <h3> Random Dev Quotes & Jokes </h3> <br>
-  <img height="50%" width="auto" src ="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=graywhite">
+  <br>
+  <br>
+  <img height="50%" width="auto" src ="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=graywhite"> <br> <br>
   <img height="50%" width="auto" src="https://readme-jokes.vercel.app/api?theme=graywhite" alt="Jokes Card">
 </div>
 
