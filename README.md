@@ -4,7 +4,7 @@
 
 <div align="center">
 Please feel free to clone/fork projects, raise issues and submit PRs if you think something could be better. <br>
-<h2> Reach me at </h2>
+<h2> Find me at </h2>
 <a href="https://stackoverflow.com/users/10858321"><img src="https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white" alt="Stack Overflow"/></a>
 <a href="https://twitter.com/shafayet_shafee"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white" alt="Twitter"/></a>
 <a href="mailto:sshafee@isrt.ac.bd"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Twitter"/></a>
