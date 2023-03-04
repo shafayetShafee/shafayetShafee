@@ -105,6 +105,13 @@ beamer <- leaf(
   22 - nchar("Beamer Templates")
 )
 
+guessingGame <- leaf(
+  "Guessing Game",
+  "https://github.com/shafayetShafee/guessing-game",
+  "Kill some time guessing in bash shell",
+  22 - nchar("Guessing Game")
+)
+
 # Quarto Ext -----------------------------------------------------------------
 
 collapse_callout <- leaf(
@@ -250,12 +257,20 @@ data <- tibble::tribble(
   "projects", c("Wildlife Strikes", "Tidytuesday"), header("glowing_star", "Projects"),
     "Wildlife Strikes", c(), wildlife_plane_damage,
     "Tidytuesday", c(), tidytuesday,
-  "other", c("py_snippet", "beamer-template"), header("light_bulb", "Other"),
+  "other", c("py_snippet", "beamer-template", "guess"), header("light_bulb", "Other"),
     "py_snippet", c(), py_snippets,
-    "beamer-template", c(), beamer
+    "beamer-template", c(), beamer,
+    "guess", c(), guessingGame
 )
 
 cat(paste0(cli::tree(data, width = 10000), collapse = "  \n"))
 ```
 
 </pre>
+
+
+<div align='center'>
+<br>
+<i>Happy Coding!</i> 😊
+<br>
+</div>

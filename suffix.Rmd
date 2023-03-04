@@ -1,0 +1,8 @@
+---
+output: github_document
+---
+
+<div align="center">
+  <img height="50%" width="auto" src ="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=graywhite"> <br> <br>
+  <img height="50%" width="auto" src="https://readme-jokes.vercel.app/api?theme=graywhite" alt="Jokes Card">
+</div>
