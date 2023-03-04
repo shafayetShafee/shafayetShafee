@@ -1,0 +1,261 @@
+---
+output: github_document
+---
+
+<!-- Inspired by https://github.com/EmilHvitfeldt/EmilHvitfeldt -->
+
+<pre>
+
+```{r, results='asis', echo=FALSE, message=FALSE, warning=FALSE}
+library(htmltools)
+library(emoji)
+
+leaf <- function(name, link, desc, space) {
+  paste0(
+    " ",
+    as.character(a(name, href = link)),
+    strrep(" ", space),
+    "- ",
+    desc
+  )
+}
+
+# R package ------------------------------------------------------------------
+
+tidycausal <- leaf(
+  "tidycausal", 
+  "https://github.com/shafayetShafee/tidycausal", 
+  "Calculate causal effects (under development)", 
+  5
+)
+
+chunkthis <- leaf(
+  "chunkthis",
+  "https://github.com/shafayetShafee/chunkthis",
+  "Rstudio Addin to create code chunks with copied R code",
+  6
+)
+
+hugodownplus <- leaf(
+  "hugodownplus",
+  "https://timteafan.github.io/hugodownplus/",
+  "Extend 'hugodown's markdown document with toc and html boxes",
+  3
+)
+
+moveQmd <- leaf(
+  "moveQmd",
+  "https://github.com/shafayetShafee/moveQmd",
+  "Move QUarto Docs to folders (under Development)",
+  8
+)
+
+simplexR <- leaf(
+  "simplexR",
+  "https://github.com/shafayetShafee/simplexR",
+  "calculate the LP simplex table step by step (under development)",
+  7
+)
+
+LpSol <- leaf(
+  "LpSol",
+  "https://github.com/shafayetShafee/LpSol",
+  "Linear programming (under Development)",
+  10
+)
+
+# projects  -------------------------------------------------------------
+
+wildlife_plane_damage <- leaf(
+  "WlidLife Strike",
+  "https://shafayetshafee.github.io/wildlife_plane_damage/",
+  "A dashboard showing plane damage by wildlife strike",
+  22 - nchar("wildlife strike")
+)
+
+tidytuesday <- leaf(
+  "TidyTuesday",
+  "https://github.com/shafayetShafee/TidyTuesday",
+  "My contributions to the #TidyTuesday weekly data project",
+  22 - nchar("tidytuesday")
+)
+
+# python package -------------------------------------------------------------
+
+pycount_ks <- leaf(
+  "pycount_ks",
+  "https://pycounts-ks.readthedocs.io/en/latest/",
+  "Calculate word counts in a text file",
+  22 - nchar("pycount_ks")
+)
+
+# other -------------------------------------------------------------------
+
+py_snippets <- leaf(
+  "Python code snippets",
+  "https://github.com/shafayetShafee/py_snippets",
+  "A few python code snippets",
+  22 - nchar("Python code snippets")
+)
+
+beamer <- leaf(
+  "Beamer Templates",
+  "https://github.com/shafayetShafee/beamer-template",
+  "My collection of beamer templates",
+  22 - nchar("Beamer Templates")
+)
+
+# Quarto Ext -----------------------------------------------------------------
+
+collapse_callout <- leaf(
+  "collapse-callout",
+  "https://github.com/shafayetShafee/collapse-callout",
+  "Make the Callouts collapsible globally in HTML docs",
+  22 - nchar("collapse_callout")
+)
+
+downloadthis <- leaf(
+  "downloadthis",
+  "https://github.com/shafayetShafee/downloadthis",
+  "Embed download buttons in HTML docs",
+  22 - nchar("downloadthis")
+)
+
+line_highlight <- leaf(
+  "line-highlight",
+  "https://github.com/shafayetShafee/line-highlight",
+  "Implement code line highlighting for HTML docs",
+  22 - nchar("line_highlight")
+)
+
+bsicons <- leaf(
+  "bsicons",
+  "https://github.com/shafayetShafee/bsicons",
+  "use Bootstrap Icons in HTML docs and RevealJs presentations",
+  22 - nchar("bsicons")
+)
+
+reveal_header <- leaf(
+  "reveal-header",
+  "https://github.com/shafayetShafee/reveal-header",
+  "Add header text and header logo in all pages of RevealJs slide",
+  22 - nchar("reveal-header")
+)
+
+nameref <- leaf(
+  "nameref",
+  "https://github.com/shafayetShafee/nameref",
+  "Use named reference in Quarto Docs",
+  22 - nchar("nameref")
+)
+
+code_fullscreen <- leaf(
+  "code-fullscreen",
+  "https://github.com/shafayetShafee/code-fullscreen",
+  "Adds a full screen button in the code blocks in Quarto docs.",
+  22 - nchar("code-fullscreen")
+)
+
+hide_comment <- leaf(
+  "hide-comment",
+  "https://github.com/EmilHvitfeldt/gganonymize",
+  "Add comments in code chunk, hidden in rendered output",
+  22 - nchar("hide-comment")
+)
+
+add_code_files <- leaf(
+  "add-code-files",
+  "https://github.com/shafayetShafee/add-code-files",
+  "Add contents from external source or code files",
+  22 - nchar("add-code-files")
+)
+
+collapse_social_embeds <- leaf(
+  "collapse-social-embeds",
+  "https://github.com/shafayetShafee/collapse-social-embeds",
+  "Make collapsible callouts with Github gist, tweets, youtube vids etc",
+  22 - 22
+)
+
+codefocus <- leaf(
+  "codefocus",
+  "https://github.com/shafayetShafee/codefocus",
+  "Revealjs plugin",
+  22 - nchar("codefocus")
+)
+
+metropolis <- leaf(
+  "metropolis",
+  "https://github.com/shafayetShafee/metropolis",
+  "Revealjs template extension inspired by Beamer Metropolis theme",
+  22 - nchar("metropolis")
+)
+
+material_icons <- leaf(
+  "material-icons",
+  "https://github.com/shafayetShafee/material-icons",
+  "Use Google Material Design Icons in Quarto docs",
+  22 - nchar("material-icons")
+)
+
+style_speaker_note <- leaf(
+  "style-speaker-note",
+  "https://github.com/shafayetShafee/style-speaker-note",
+  "Style speaker notes of the RevealJs slides from a css file",
+  22 - nchar("style-speaker-note")
+)
+
+tableofcontents <- leaf(
+  "tableofcontents",
+  "https://github.com/shafayetShafee/tableofcontents",
+  "Quarto Reveal.js plugin for allowing some options regarding tocs",
+  22 - nchar("tableofcontents")
+)
+
+
+header <- function(emoji, text) {
+  res <- glue::glue(":{emoji}: <b>{text}</b>")
+  emoji_glue(res)
+}
+
+data <- tibble::tribble(
+  ~id, ~child, ~text,
+  "kshafayet", c("r-packages", "quarto", "py-packages", "projects", "other"), header("puzzle", "Shafayet Khan Shafee"),
+  "r-packages", c("tidycausal", "hugodownplus", "chunkthis", "simplexR", "moveQmd", "LpSol"), header("package", "R Packages"),
+    # "tidymodels", c("tidyclust", "textrecipes", "themis", "censored"), header("gear", "tidymodels"),
+    "tidycausal", c(), tidycausal,
+    "hugodownplus", c(), hugodownplus,
+    "chunkthis", c(), chunkthis,
+    "simplexR", c(), simplexR,
+    "moveQmd", c(), moveQmd,
+    "LpSol", c(), LpSol,
+  "quarto", c("collapse-callout", "downloadthis", "line-hightlight", "bsicons", "reveal-header", "nameref", "add-code-files", "metropolis", "code-fullscreen", "collapse-social-embeds", "hide-comment", "material-icons", "style-speaker-notes", "codefocus", "tableofcontents"), header("blue_circle", "Quarto Extensions"),
+    "collapse-callout", c(), collapse_callout,
+    "downloadthis", c(), downloadthis,
+    "line-hightlight", c(), line_highlight,
+    "bsicons", c(), bsicons,
+    "reveal-header", c(), reveal_header,
+    "nameref", c(), nameref,
+    "add-code-files", c(), add_code_files,
+    "metropolis", c(), metropolis,
+    "code-fullscreen", c(), code_fullscreen,
+    "collapse-social-embeds", c(), collapse_social_embeds,
+    "hide-comment", c(), hide_comment,
+    "material-icons", c(), material_icons,
+    "style-speaker-notes", c(), style_speaker_note,
+    "codefocus", c(), codefocus,
+    "tableofcontents", c(), tableofcontents,
+  "py-packages", c("pycount_ks"), header("snake", "Python Packages"),
+    "pycount_ks", c(), pycount_ks,
+  "projects", c("Wildlife Strikes", "Tidytuesday"), header("glowing_star", "Projects"),
+    "Wildlife Strikes", c(), wildlife_plane_damage,
+    "Tidytuesday", c(), tidytuesday,
+  "other", c("py_snippet", "beamer-template"), header("light_bulb", "Other"),
+    "py_snippet", c(), py_snippets,
+    "beamer-template", c(), beamer
+)
+
+cat(paste0(cli::tree(data, width = 10000), collapse = "  \n"))
+```
+
+</pre>
