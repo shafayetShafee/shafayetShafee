@@ -114,6 +114,14 @@ guessingGame <- leaf(
 
 # Quarto Ext -----------------------------------------------------------------
 
+black_formatter <- leaf(
+  "black-formatter",
+  "https://github.com/shafayetShafee/black-formatter",
+  "Format the codes in python code chunk using black",
+  22 - nchar("black-formatter")
+)
+
+
 collapse_callout <- leaf(
   "collapse-callout",
   "https://github.com/shafayetShafee/collapse-callout",
@@ -236,7 +244,8 @@ data <- tibble::tribble(
     "simplexR", c(), simplexR,
     "moveQmd", c(), moveQmd,
     "LpSol", c(), LpSol,
-  "quarto", c("collapse-callout", "downloadthis", "line-hightlight", "bsicons", "reveal-header", "nameref", "add-code-files", "metropolis", "code-fullscreen", "collapse-social-embeds", "hide-comment", "material-icons", "style-speaker-notes", "codefocus", "tableofcontents"), header("blue_circle", "Quarto Extensions"),
+  "quarto", c("black-formatter" ,"collapse-callout", "downloadthis", "line-hightlight", "bsicons", "reveal-header", "nameref", "add-code-files", "metropolis", "code-fullscreen", "collapse-social-embeds", "hide-comment", "material-icons", "style-speaker-notes", "codefocus", "tableofcontents"), header("blue_circle", "Quarto Extensions"),
+    "black-formatter", c(), black_formatter,
     "collapse-callout", c(), collapse_callout,
     "downloadthis", c(), downloadthis,
     "line-hightlight", c(), line_highlight,
