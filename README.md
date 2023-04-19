@@ -47,7 +47,7 @@ Find me at
 │ ├─ <a href="https://github.com/shafayetShafee/metropolis">metropolis</a>            - Revealjs template extension inspired by Beamer Metropolis theme  
 │ ├─ <a href="https://github.com/shafayetShafee/code-fullscreen">code-fullscreen</a>       - Adds a full screen button in the code blocks in Quarto docs.  
 │ ├─ <a href="https://github.com/shafayetShafee/collapse-social-embeds">collapse-social-embeds</a>- Make collapsible callouts with Github gist, tweets, youtube vids etc  
-│ ├─ <a href="https://github.com/EmilHvitfeldt/gganonymize">hide-comment</a>          - Add comments in code chunk, hidden in rendered output  
+│ ├─ <a href="https://github.com/shafayetShafee/hide-comment">hide-comment</a>          - Add comments in code chunk, hidden in rendered output  
 │ ├─ <a href="https://github.com/shafayetShafee/material-icons">material-icons</a>        - Use Google Material Design Icons in Quarto docs  
 │ ├─ <a href="https://github.com/shafayetShafee/style-speaker-note">style-speaker-note</a>    - Style speaker notes of the RevealJs slides from a css file  
 │ ├─ <a href="https://github.com/shafayetShafee/codefocus">codefocus</a>             - Revealjs plugin  
