@@ -173,7 +173,7 @@ code_fullscreen <- leaf(
 
 hide_comment <- leaf(
   "hide-comment",
-  "https://github.com/EmilHvitfeldt/gganonymize",
+  "https://github.com/shafayetShafee/hide-comment",
   "Add comments in code chunk, hidden in rendered output",
   22 - nchar("hide-comment")
 )
