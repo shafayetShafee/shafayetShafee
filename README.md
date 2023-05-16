@@ -70,25 +70,3 @@ Find me at
 
 </div>
 
-
-<br>
-
-<div align="center">
-
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shafayetShafee/shafayetShafee/output/ocean.svg" />
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shafayetShafee/shafayetShafee/output/warm_coffee.svg" />
-<img alt="github-snake" src="https://raw.githubusercontent.com/shafayetShafee/shafayetShafee/output/warm_coffee.svg" />
-</picture>
-
-</div>
-
-<br> <br> <br>
-
-<div align="center">
-
-<img height="50%" width="auto" src ="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=graywhite">
-<br> <br>
-<img height="50%" width="auto" src="https://readme-jokes.vercel.app/api?theme=graywhite" alt="Jokes Card">
-
-</div>
