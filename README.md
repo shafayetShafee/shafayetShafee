@@ -55,7 +55,7 @@ Find me at
 ├─🐍 <b>Python Packages</b>  
 │ └─ <a href="https://pycounts-ks.readthedocs.io/en/latest/">pycount_ks</a>            - Calculate word counts in a text file  
 ├─🌟 <b>Projects</b>  
-│ ├─ <a href="https://shafayetshafee.github.io/wildlife_plane_damage/">WlidLife Strike</a>       - A dashboard showing plane damage by wildlife strike  
+│ ├─ <a href="https://shafayetshafee.github.io/wildlife_plane_damage/bird_flexdash">WlidLife Strike</a>       - A dashboard showing plane damage by wildlife strike  
 │ └─ <a href="https://github.com/shafayetShafee/TidyTuesday">TidyTuesday</a>           - My contributions to the #TidyTuesday weekly data project  
 └─💡 <b>Other</b>  
   ├─ <a href="https://github.com/shafayetShafee/py_snippets">Python code snippets</a>  - A few python code snippets  
