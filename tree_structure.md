@@ -1,22 +1,4 @@
 
-<div align="center">
-
-<h1>
-Hi there 👋, I am Shafayet Khan Shafee
-</h1>
-
-</div>
-
-<div align="center">
-
-Please feel free to clone/fork projects, raise issues and submit PRs if
-you think something could be better.
-
-</div>
-
-<br>
-
-<!-- Remeber to indent the tree by three space -->
 <!-- Inspired by https://github.com/EmilHvitfeldt/EmilHvitfeldt -->
 <pre>
 &#10;🧩 <b>Shafayet Khan Shafee</b>  

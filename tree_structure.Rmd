@@ -6,7 +6,12 @@ output: github_document
 
 <pre>
 
-```{r, results='asis', echo=FALSE, message=FALSE, warning=FALSE}
+```{r}
+#| results: asis
+#| echo: false
+#| message: false
+#| warning: false
+
 library(htmltools)
 library(emoji)
 
@@ -22,49 +27,77 @@ leaf <- function(name, link, desc, space) {
 
 # R package ------------------------------------------------------------------
 
-tidycausal <- leaf(
-  "tidycausal", 
-  "https://github.com/shafayetShafee/tidycausal", 
-  "Calculate causal effects (under development)", 
-  5
+mor <- leaf(
+  "MOR", 
+  "https://shafayetshafee.github.io/MOR/", 
+  "Calculate Median Odds Ratio From a Fitted Multilevel Binary Logistic Model", 
+  22 - nchar("mor")
+)
+
+skmisc <- leaf(
+  "skmisc", 
+  "https://shafayetshafee.github.io/skmisc/", 
+  "package with some useful functions to make life easier", 
+  22 - nchar("skmisc")
 )
 
 chunkthis <- leaf(
   "chunkthis",
   "https://github.com/shafayetShafee/chunkthis",
   "Rstudio Addin to create code chunks with copied R code",
-  6
+  22 - nchar("chunkthis")
 )
 
 hugodownplus <- leaf(
   "hugodownplus",
   "https://timteafan.github.io/hugodownplus/",
   "Extend 'hugodown's markdown document with toc and html boxes",
-  3
+  22 - nchar("hugodownplus")
 )
 
-moveQmd <- leaf(
-  "moveQmd",
-  "https://github.com/shafayetShafee/moveQmd",
-  "Move QUarto Docs to folders (under Development)",
-  8
+# python package -------------------------------------------------------------
+
+skmiscpy <- leaf(
+  "skmiscpy",
+  "https://skmiscpy.readthedocs.io/en/latest/",
+  "A python package providing Contains a few functions useful for data-analysis, causal inference etc.",
+  22 - nchar("skmiscpy")
 )
 
-simplexR <- leaf(
-  "simplexR",
-  "https://github.com/shafayetShafee/simplexR",
-  "calculate the LP simplex table step by step (under development)",
-  7
+kedrogen <- leaf(
+  "kedrogen",
+  "https://github.com/shafayetShafee/kedrogen",
+  "A simple CLI command that generate a Kedro project from a cookiecutter template in the current directory.",
+  22 - nchar("kedrogen")
 )
 
-LpSol <- leaf(
-  "LpSol",
-  "https://github.com/shafayetShafee/LpSol",
-  "Linear programming (under Development)",
-  10
+# Bash Script ----------------------------------------------------------------   
+
+uvshot <- leaf(
+  "uvshot",
+  "https://github.com/shafayetShafee/uvshot",
+  "Python setup scripts using uv",
+  22 - nchar("uvshot")
 )
 
-# projects  -------------------------------------------------------------
+# Reproducible analysis ------------------------------------------------------
+
+mad_coc_ipw <- leaf(
+  "mad-coc-IPW",
+  "https://github.com/shafayetShafee/mad-coc-IPW",
+  "Contains docker image to reproduce of an analysis results",
+  22 - nchar("mad-coc-IPW")
+)
+
+contained_thesis <- leaf(
+  "contained-thesis",
+  "https://github.com/shafayetShafee/contained-thesis",
+  "Contains docker image to reproduce of a simulation results",
+  22 - nchar("contained-thesis")
+)
+
+
+# Dataviz projects  ----------------------------------------------------------
 
 wildlife_plane_damage <- leaf(
   "WlidLife Strike",
@@ -80,60 +113,13 @@ tidytuesday <- leaf(
   22 - nchar("tidytuesday")
 )
 
-# python package -------------------------------------------------------------
+# Quarto Ext -----------------------------------------------------------------  
 
-pycount_ks <- leaf(
-  "pycount_ks",
-  "https://pycounts-ks.readthedocs.io/en/latest/",
-  "Calculate word counts in a text file",
-  22 - nchar("pycount_ks")
-)
-
-# other -------------------------------------------------------------------
-
-py_snippets <- leaf(
-  "Python code snippets",
-  "https://github.com/shafayetShafee/py_snippets",
-  "A few python code snippets",
-  22 - nchar("Python code snippets")
-)
-
-beamer <- leaf(
-  "Beamer Templates",
-  "https://github.com/shafayetShafee/beamer-template",
-  "My collection of beamer templates",
-  22 - nchar("Beamer Templates")
-)
-
-guessingGame <- leaf(
-  "Guessing Game",
-  "https://github.com/shafayetShafee/guessing-game",
-  "Kill some time guessing in bash shell",
-  22 - nchar("Guessing Game")
-)
-
-# Quarto Ext -----------------------------------------------------------------
-
-black_formatter <- leaf(
-  "black-formatter",
-  "https://github.com/shafayetShafee/black-formatter",
-  "Format the codes in python code chunk using black",
-  22 - nchar("black-formatter")
-)
-
-
-collapse_callout <- leaf(
-  "collapse-callout",
-  "https://github.com/shafayetShafee/collapse-callout",
-  "Make the Callouts collapsible globally in HTML docs",
-  22 - nchar("collapse_callout")
-)
-
-downloadthis <- leaf(
-  "downloadthis",
-  "https://github.com/shafayetShafee/downloadthis",
-  "Embed download buttons in HTML docs",
-  22 - nchar("downloadthis")
+reveal_header <- leaf(
+  "reveal-header",
+  "https://github.com/shafayetShafee/reveal-header",
+  "Add header text and header logo in all pages of RevealJs slide",
+  22 - nchar("reveal-header")
 )
 
 line_highlight <- leaf(
@@ -143,18 +129,46 @@ line_highlight <- leaf(
   22 - nchar("line_highlight")
 )
 
+downloadthis <- leaf(
+  "downloadthis",
+  "https://github.com/shafayetShafee/downloadthis",
+  "Embed download buttons in HTML docs",
+  22 - nchar("downloadthis")
+)
+
+interactive_sql <- leaf(
+  "interactive-sql",
+  "https://github.com/shafayetShafee/interactive-sql",
+  "Run sql examples interactively in RevealJs slide or HTML files",
+  22 - nchar("interactive-sql")
+)
+
+collapse_callout <- leaf(
+  "collapse-callout",
+  "https://github.com/shafayetShafee/collapse-callout",
+  "Make the Callouts collapsible globally in HTML docs",
+  22 - nchar("collapse-callout")
+)
+
+metropolis_beamer <- leaf(
+  "metropolis-beamer",
+  "https://github.com/shafayetShafee/metropolis-beamer",
+  "Another Quarto reveal.js template extension inspired by Beamer Metropolis theme",
+  22 - nchar("metropolis-beamer")
+)
+
+metropolis <- leaf(
+  "metropolis",
+  "https://github.com/shafayetShafee/metropolis",
+  "Quarto reveal.js template extension inspired by Metropolis theme",
+  22 - nchar("metropolis")
+)
+
 bsicons <- leaf(
   "bsicons",
   "https://github.com/shafayetShafee/bsicons",
   "use Bootstrap Icons in HTML docs and RevealJs presentations",
   22 - nchar("bsicons")
-)
-
-reveal_header <- leaf(
-  "reveal-header",
-  "https://github.com/shafayetShafee/reveal-header",
-  "Add header text and header logo in all pages of RevealJs slide",
-  22 - nchar("reveal-header")
 )
 
 nameref <- leaf(
@@ -164,25 +178,18 @@ nameref <- leaf(
   22 - nchar("nameref")
 )
 
-code_fullscreen <- leaf(
-  "code-fullscreen",
-  "https://github.com/shafayetShafee/code-fullscreen",
-  "Adds a full screen button in the code blocks in Quarto docs.",
-  22 - nchar("code-fullscreen")
-)
-
-hide_comment <- leaf(
-  "hide-comment",
-  "https://github.com/shafayetShafee/hide-comment",
-  "Add comments in code chunk, hidden in rendered output",
-  22 - nchar("hide-comment")
-)
-
 add_code_files <- leaf(
   "add-code-files",
   "https://github.com/shafayetShafee/add-code-files",
   "Add contents from external source or code files",
   22 - nchar("add-code-files")
+)
+
+code_fullscreen <- leaf(
+  "code-fullscreen",
+  "https://github.com/shafayetShafee/code-fullscreen",
+  "Adds a full screen button in the code blocks in Quarto docs.",
+  22 - nchar("code-fullscreen")
 )
 
 collapse_social_embeds <- leaf(
@@ -192,18 +199,11 @@ collapse_social_embeds <- leaf(
   22 - 22
 )
 
-codefocus <- leaf(
-  "codefocus",
-  "https://github.com/shafayetShafee/codefocus",
-  "Revealjs plugin",
-  22 - nchar("codefocus")
-)
-
-metropolis <- leaf(
-  "metropolis",
-  "https://github.com/shafayetShafee/metropolis",
-  "Revealjs template extension inspired by Beamer Metropolis theme",
-  22 - nchar("metropolis")
+black_formatter <- leaf(
+  "black-formatter",
+  "https://github.com/shafayetShafee/black-formatter",
+  "Format the codes in python code chunk using black",
+  22 - nchar("black-formatter")
 )
 
 material_icons <- leaf(
@@ -213,6 +213,13 @@ material_icons <- leaf(
   22 - nchar("material-icons")
 )
 
+hide_comment <- leaf(
+  "hide-comment",
+  "https://github.com/shafayetShafee/hide-comment",
+  "Add comments in code chunk, hidden in rendered output",
+  22 - nchar("hide-comment")
+)
+
 style_speaker_note <- leaf(
   "style-speaker-note",
   "https://github.com/shafayetShafee/style-speaker-note",
@@ -220,13 +227,22 @@ style_speaker_note <- leaf(
   22 - nchar("style-speaker-note")
 )
 
-tableofcontents <- leaf(
-  "tableofcontents",
-  "https://github.com/shafayetShafee/tableofcontents",
-  "Quarto Reveal.js plugin for allowing some options regarding tocs",
-  22 - nchar("tableofcontents")
+
+# Other ----------------------------------------------------------------------
+
+beamer <- leaf(
+  "Beamer Templates",
+  "https://github.com/shafayetShafee/beamer-template",
+  "My collection of beamer templates",
+  22 - nchar("Beamer Templates")
 )
 
+dbt_demo <- leaf(
+  "DBT Demo Project",
+  "https://github.com/shafayetShafee/dbt-demo-project",
+  "A Demo DBT Project",
+  22 - nchar("Beamer Templates")
+)
 
 header <- function(emoji, text) {
   res <- glue::glue(":{emoji}: <b>{text}</b>")
@@ -235,41 +251,62 @@ header <- function(emoji, text) {
 
 data <- tibble::tribble(
   ~id, ~child, ~text,
-  "kshafayet", c("r-packages", "quarto", "py-packages", "projects", "other"), header("puzzle", "Shafayet Khan Shafee"),
-  "r-packages", c("tidycausal", "hugodownplus", "chunkthis", "simplexR", "moveQmd", "LpSol"), header("package", "R Packages"),
-    # "tidymodels", c("tidyclust", "textrecipes", "themis", "censored"), header("gear", "tidymodels"),
-    "tidycausal", c(), tidycausal,
-    "hugodownplus", c(), hugodownplus,
-    "chunkthis", c(), chunkthis,
-    "simplexR", c(), simplexR,
-    "moveQmd", c(), moveQmd,
-    "LpSol", c(), LpSol,
-  "quarto", c("black-formatter" ,"collapse-callout", "downloadthis", "line-hightlight", "bsicons", "reveal-header", "nameref", "add-code-files", "metropolis", "code-fullscreen", "collapse-social-embeds", "hide-comment", "material-icons", "style-speaker-notes", "codefocus", "tableofcontents"), header("blue_circle", "Quarto Extensions"),
-    "black-formatter", c(), black_formatter,
-    "collapse-callout", c(), collapse_callout,
-    "downloadthis", c(), downloadthis,
-    "line-hightlight", c(), line_highlight,
-    "bsicons", c(), bsicons,
-    "reveal-header", c(), reveal_header,
-    "nameref", c(), nameref,
-    "add-code-files", c(), add_code_files,
-    "metropolis", c(), metropolis,
-    "code-fullscreen", c(), code_fullscreen,
-    "collapse-social-embeds", c(), collapse_social_embeds,
-    "hide-comment", c(), hide_comment,
-    "material-icons", c(), material_icons,
-    "style-speaker-notes", c(), style_speaker_note,
-    "codefocus", c(), codefocus,
-    "tableofcontents", c(), tableofcontents,
-  "py-packages", c("pycount_ks"), header("snake", "Python Packages"),
-    "pycount_ks", c(), pycount_ks,
-  "projects", c("Wildlife Strikes", "Tidytuesday"), header("glowing_star", "Projects"),
-    "Wildlife Strikes", c(), wildlife_plane_damage,
-    "Tidytuesday", c(), tidytuesday,
-  "other", c("py_snippet", "beamer-template", "guess"), header("light_bulb", "Other"),
-    "py_snippet", c(), py_snippets,
-    "beamer-template", c(), beamer,
-    "guess", c(), guessingGame
+  "kshafayet", 
+  c("r-packages", "py-packages", "bash", "docker-img", "dataviz", "quarto", "other"), 
+  header("puzzle", "Shafayet Khan Shafee"),
+  
+  "r-packages", 
+  c("mor", "skmisc", "chunkthis", "hugodownplus"), 
+  header("package", "R Packages"),
+  
+  "mor", c(), mor,
+  "skmisc", c(), skmisc,
+  "chunkthis", c(), chunkthis,
+  "hugodownplus", c(), hugodownplus,
+  
+  "py-packages", c("skmiscpy", "kedrogen"), header("snake", "Python Packages"),
+  "skmiscpy", c(), skmiscpy,
+  "kedrogen", c(), kedrogen,
+  
+  "bash", c("uvshot"), header("scroll", "Bash Scripts"),
+  "uvshot", c(), uvshot,
+  
+  "docker-img", c("mad-coc-IPW", "contained-thesis"), header("whale", "Docker Images"),
+  "mad-coc-IPW", c(), mad_coc_ipw,
+  "contained-thesis", c(), contained_thesis,
+  
+  "dataviz", c("Wildlife Strikes", "Tidytuesday"), header("bar_chart", "DataViz"),
+  "Wildlife Strikes", c(), wildlife_plane_damage,
+  "Tidytuesday", c(), tidytuesday,
+    
+  "quarto", 
+  c("reveal-header", "line-highlight", "downloadthis", "interactive-sql",
+  "collapse-callout", "metropolis-beamer", "metropolis", "bsicons",
+  "nameref", "add-code-files", "code-fullscreen", "collapse-social-embeds",
+  "black-formatter", "material-icons", "hide-comment", "style-speaker-note"), 
+  header("blue_circle", "Quarto Extensions"),
+    
+  "reveal-header", c(), reveal_header,
+  "line-highlight", c(), line_highlight,
+  "downloadthis", c(), downloadthis,
+  "interactive-sql", c(), interactive_sql,
+  "collapse-callout", c(), collapse_callout,
+  "metropolis-beamer", c(), metropolis_beamer,
+  "metropolis", c(), metropolis,
+  "bsicons", c(), bsicons,
+  "nameref", c(), nameref,
+  "add-code-files", c(), add_code_files,
+  "code-fullscreen", c(), code_fullscreen,
+  "collapse-social-embeds", c(), collapse_social_embeds,
+  "black-formatter", c(), black_formatter,
+  "material-icons", c(), material_icons,
+  "hide-comment", c(), hide_comment,
+  "style-speaker-note", c(), style_speaker_note,
+
+  
+  "other", c("DBT Demo Project", "beamer-template"), header("light_bulb", "Other"),
+  "DBT Demo Project", c(), dbt_demo,  
+  "beamer-template", c(), beamer
 )
 
 cat(paste0(cli::tree(data, width = 10000), collapse = "  \n"))
