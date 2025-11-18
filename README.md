@@ -12,27 +12,27 @@ Hi there 👋, I am Shafayet!
 </p>
 <p align="center">
 
-<a href="https://www.linkedin.com/in/shafayetshafee/">
+<a href="https://www.linkedin.com/in/shafayetshafee/" target="_blank">
 <img alt="LinkedIn" src="https://custom-icon-badges.demolab.com/badge/LinkedIn-shafayetshafee-222?style=flat&logo=linkedin-white&logoColor=fff" />
 </a>
 
-<a href="https://fosstodon.org/@shafayet_shafee">
+<a href="https://fosstodon.org/@shafayet_shafee" target="_blank">
 <img alt="Mastodon" src="https://img.shields.io/badge/Mastodon-@shafayet__shafee-222?style=flat&logo=mastodon&logoColor=white" />
 </a>
 
-<a href="https://bsky.app/profile/kshafayet.bsky.social">
+<a href="https://bsky.app/profile/kshafayet.bsky.social" target="_blank">
 <img alt="Bluesky" src="https://img.shields.io/badge/Bluesky-kshafayet.bsky.social-222?style=flat&logo=bluesky&logoColor=white" />
 </a>
 
-<a href="https://x.com/shafayet_shafee">
+<a href="https://x.com/shafayet_shafee" target="_blank">
 <img alt="X" src="https://img.shields.io/badge/X-shafayet__shafee-222?style=flat&logoColor=white" />
 </a>
 
-<a href="https://scholar.google.com/citations?user=GSgDEx0AAAAJ&hl=en">
+<a href="https://scholar.google.com/citations?user=GSgDEx0AAAAJ&hl=en" target="_blank">
 <img alt="Google Scholar" src="https://img.shields.io/badge/Google_Scholar-GSgDEx0AAAAJ-222?style=flat&logo=google-scholar&logoColor=white" />
 </a>
 
-<a href="https://orcid.org/0009-0002-8021-3788">
+<a href="https://orcid.org/0009-0002-8021-3788" target="_blank">
 <img alt="ORCID" src="https://img.shields.io/badge/ORCID-0009--0002--8021--3788-333?style=flat&logo=orcid&logoColor=white" />
 </a>
 
