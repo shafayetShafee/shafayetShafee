@@ -314,9 +314,3 @@ cat(paste0(cli::tree(data, width = 10000), collapse = "  \n"))
 
 </pre>
 
-
-<div align='center'>
-<br>
-<i>Happy Coding!</i> 😊
-<br>
-</div>
