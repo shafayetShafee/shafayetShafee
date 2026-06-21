@@ -12,8 +12,8 @@ output: github_document
 
 <p align="center">
 
-<a href="https://shafayetshafee.github.io/">
-  <img alt="Personal Website of Shafayet Khan Shafee" src="https://shields.io/badge/Personal-Website-222?style=flat&logoColor=fff" />
+<a href="https://kshafayet.netlify.app/">
+  <img alt="Personal Website of Shafayet Khan Shafee" src="https://shields.io/badge/Personal-Website-222?style=flat" />
 </a>
 
 <a href="https://www.linkedin.com/in/shafayetshafee/">
@@ -51,10 +51,13 @@ output: github_document
 
 ## About Me 
 
-I'm a **Data scientist** and **Statistician** who enjoys using statistical thinking to shape 
-real product and business decisions. My interests and expertise lie at the intersection of 
-applied statistics, machine learning, and open-source development, turning rigorous analytical 
-ideas into practical tools, software and workflows.
+I'm a **Data scientist** and **Statistician** with a focus on applying statistical 
+thinking to real product and business decisions. My interests and expertise lie 
+at the intersection of applied statistics, machine learning, and open-source 
+development &mdash; turning rigorous analytical ideas into practical tools, 
+software, and workflows [^1].
+
+[^1]: All em-dashes are mine.
 
 ## Open Source Projects
 

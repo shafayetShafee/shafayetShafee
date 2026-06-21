@@ -12,8 +12,8 @@ Hi there 👋, I am Shafayet!
 </p>
 <p align="center">
 
-<a href="https://shafayetshafee.github.io/">
-<img alt="Personal Website of Shafayet Khan Shafee" src="https://shields.io/badge/Personal-Website-222?style=flat&logoColor=fff" />
+<a href="https://kshafayet.netlify.app/">
+<img alt="Personal Website of Shafayet Khan Shafee" src="https://shields.io/badge/Personal-Website-222?style=flat" />
 </a>
 
 <a href="https://www.linkedin.com/in/shafayetshafee/">
@@ -48,11 +48,11 @@ Hi there 👋, I am Shafayet!
 
 ## About Me
 
-I’m a **Data scientist** and **Statistician** who enjoys using
-statistical thinking to shape real product and business decisions. My
+I’m a **Data scientist** and **Statistician** with a focus on applying
+statistical thinking to real product and business decisions. My
 interests and expertise lie at the intersection of applied statistics,
-machine learning, and open-source development, turning rigorous
-analytical ideas into practical tools, software and workflows.
+machine learning, and open-source development — turning rigorous
+analytical ideas into practical tools, software, and workflows [^1].
 
 ## Open Source Projects
 
@@ -111,7 +111,7 @@ you think something could be better.
 - **Stats & ML**: Causal Inference · Experimentation · Multilevel
   Modeling · Bayesian Inference · Time Series Forecasting · Predictive
   Modeling · Statistical Testing
-- **DataOps & MLOps**: DBT · Kedro · MLflow · Docker · VM · B\*ash
+- **DataOps & MLOps**: DBT · Kedro · MLflow · Docker · VM · Bash
   Scripting
 - **Dev**: R · Python · SQL · Lua
 - **Other**: Rmarkdown · Quarto Extensions · LaTeX
@@ -123,3 +123,5 @@ you think something could be better.
 <p align="center">
 <a href="https://github.com/shafayetShafee"><img alt="Shafayet Khan Shafee GitHub statistic card using 'github-readme-stats' app by anuraghazra" src="https://github-readme-stats.vercel.app/api?username=shafayetShafee&theme=transparent&show_icons=true&rank_icon=github&count_private=true" /></a>
 </p>
+
+[^1]: All em-dashes are mine.
